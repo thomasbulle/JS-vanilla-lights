@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+  font-family: 'Roboto', 'Arial', 'serif';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #80d1f7;
+}
+
+.title {
+  font-family: 'Titan One', 'Roboto', 'Arial', 'serif';
+  font-size: 60px;
+}
+
+.light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-img {
+  margin-bottom: 50px;
+}
+
+.toggle-btn {
+  padding: 15px;
+  background-color: #dddcdc;
+  border: 3px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;
+  transition: transform .2s;
+}
+
+.toggle-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.toggle-btn:active {
+  background-color: #bbbaba;
+}
+
+.toggle-btn-img {
+  width: 100px;
+}
+
+.toggle-btn-label {
+  margin: 15px 0 0;
+  font-size: 25px;
+}
